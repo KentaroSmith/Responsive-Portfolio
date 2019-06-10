@@ -1,0 +1,25 @@
+.img_wrapper{
+    width:300px;
+    border-style: none;
+    background-color: #4aaaa5;
+    position: absolute;
+    color:white;
+    padding:10px 0px 10px 0px;
+    height: 50px;
+    text-align: center;
+    margin-top:120px;
+
+}
+.content{
+    width: 960px;
+}
+
+.images{
+    display:inline-grid;
+    height: 220px;
+    margin:25px;
+
+}
+.img_wrapper:hover{
+    background-color: #068f88;
+}
