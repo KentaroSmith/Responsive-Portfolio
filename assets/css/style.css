@@ -107,15 +107,69 @@ button:hover{
     background-color: #4a68aa;
     font-weight: bold;
 }
+.img_wrapper{
+    width:300px;
+    border-style: none;
+    background-color: #4aaaa5;
+    position: absolute;
+    color:white;
+    padding:10px 0px 10px 0px;
+    height: 50px;
+    text-align: center;
+    margin-top:120px;
+
+}
+.content{
+    width: 960px;
+}
+
+.images{
+    display:inline-grid;
+    height: 220px;
+    margin:25px;
+
+}
+.img_wrapper:hover{
+    background-color: #068f88;
+}
 
 @media (min-width: 640px) { 
+.headercontent{
+    position:static;
+    width:640px;
+    padding:none;
+}
+.content{
+    width: 640px;
+}
+.images{
+    display:inline-grid;
+    height: 220px;
+    margin:none;
 
+}
  }
 
-@media (min-width: 768px) { 
-
+@media (min-width: 768px) {
+    .headercontent{
+        width:768px;
+        padding:none;
+    } 
+    .content{
+        width: 768px;
+    }
+    .images{
+        margin-left: none;
+        margin-right: 5px;
+    
+    }
  }
 
 @media (min-width: 980px) { 
-
+    .headercontent{
+        width:980px;
+    }
+    .content{
+        width: 960px;
+    }
  }
